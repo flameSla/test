@@ -1,54 +1,22 @@
 # Table of Contents
-1. [1](#1)
-   1. [2](#2)
-      1. [A](#a)
-      2. [B](#b)
-      3. [C](#c)
-2. [ffgfgfg](#ffgfgfg)
 
-# 1
-* Ensure your sticks are in the recommended DIMM slots (usually 2 and 4).
-* Make sure your CPU is fully stable before overclocking RAM, as an unstable CPU can lead to memory errors. When pushing high frequency with tight timings, it's possible that your CPU can become unstable.
-* Make sure your UEFI is up to date.
+1. [Выбор билдов для тестирования](#Выбор билдов для тестирования)
+  2. [A](#a)
+  3. [B](#b)
+2.[C](#c)
+3.[ffgfgfg](#ffgfgfg)
 
-## 2
-sdfsfsfsf
-### A
-ssdfsdfsdfsdfsdfsdfsdf
-### B
-* 1122131
-  * 221321321
-  * 1321321251321
-### C
+
+# Выбор билдов для тестирования
+## Стальные печи
+## Стандартный b8
+
+
+# Создание «Шаблона для бенчмарка»
+# Создания сохранения для билда (1.1.) test_smelting_b0_x1
+# Создания сохранения для билда (1.2.) test_smelting_b8_x1
+# Клонирование
 
 
 
 ![alt text](img/test_1.png "Описание будет тут")
-
-
-
-
-### D
-jhjskfjshdkjfhskjdfh
-sdfhjkhsdkfhkjsdhjfksjkd
-
-## 3
-### A
-### B
-
-
-*fdjgkfdjgkdfjkgjdf*
-# ffgfgfg
-
-
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
-
-
-```C++
-int i = 10;
-printf("");
-```
