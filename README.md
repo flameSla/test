@@ -4,6 +4,7 @@
       1. [A](#a)
       2. [B](#b)
       3. [C](#c)
+2. [ffgfgfg](#ffgfgfg)
 
 # 1
 * Ensure your sticks are in the recommended DIMM slots (usually 2 and 4).
@@ -36,4 +37,18 @@ sdfhjkhsdkfhkjsdhjfksjkd
 ### B
 
 
-аввава
+*fdjgkfdjgkdfjkgjdf*
+# ffgfgfg
+
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+
+```C++
+int i = 10;
+printf("");
+```
