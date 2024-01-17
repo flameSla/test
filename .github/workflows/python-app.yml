@@ -45,10 +45,9 @@ jobs:
         cat other.txt
     - name: Commit changes
       run: |
-        git config --global user.email "no-reply@github.com"
-        git config --global user.name "GitHub Actions"
         git add .
         git commit -m "build bps"
+        echo https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
         git push
       env:
