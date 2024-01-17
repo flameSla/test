@@ -9,9 +9,6 @@ on:
   pull_request:
     branches: [ "main" ]
 
-permissions:
-  contents: read
-
 jobs:
   build:
 
@@ -42,8 +39,7 @@ jobs:
         ls -la
         cat hw.txt
         cat other.txt
-    - name: Commit changes
-        uses: EndBug/add-and-commit@v9
-        with:
+    - name: Add & Commit
+      uses: EndBug/add-and-commit@v9
+      with:
           message: 'building a bps'
-          
