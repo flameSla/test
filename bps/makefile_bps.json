@@ -1,0 +1,107 @@
+{
+    "label": "128² rails v{}",
+    "version": "0.3",
+    "summary_of_book": {
+        "item": "blueprint-book",
+        "label": "128² rails v0.2.3",
+        "description": "chunk-aligned LHD rail system for 11-long trains.\nby the AssemblyStorm server crew \nv0.2.3 | 19/november/2023\n\n[color=#ff8000]taxi sez:[/color] [color=yellow]only YOU can prevent congestion![/color]\n[color=#FFFF00]• Plan and organize the rail network so that the number of intersections decreases as expected traffic increases:[/color] \n[color=yellow]- high traffic areas should have just a few spread-apart intersections; \n- low traffic areas can have several close-by intersections.[/color]",
+        "icons": [
+            {
+                "signal": {
+                    "type": "item",
+                    "name": "rail"
+                },
+                "index": 1
+            }
+        ],
+        "active_index": 0,
+        "version": 281479278297089
+    },
+    "indexes": {
+        "0": {
+            "filename": "bp_index_0.bin",
+            "label": "[color=blue]2trk[/color] straight",
+            "description": "description is missing"
+        },
+        "1": {
+            "filename": "bp_index_1*",
+            "label": "[color=purple]4trk [/color]straight",
+            "description": "description is missing"
+        },
+        "2": {
+            "filename": "bp_index_2.bin",
+            "label": "[color=blue]2trk[/color] curve",
+            "description": "description is missing"
+        },
+        "3": {
+            "filename": "bp_index_3.bin",
+            "label": "[color=purple]4trk[/color] curve",
+            "description": "description is missing"
+        },
+        "4": {
+            "filename": "bp_index_4.bin",
+            "label": "[color=blue]2trk[/color] junction",
+            "description": "description is missing"
+        },
+        "5": {
+            "filename": "bp_index_5.bin",
+            "label": "[color=purple]4trk[/color] junction",
+            "description": "description is missing"
+        },
+        "6": {
+            "filename": "bp_index_6.bin",
+            "label": "[color=blue]2[/color]to[color=purple]4[/color] [color=red]switch[/color]",
+            "description": "[color=#FFFF00]Can be overlaid on a \"[/color][color=blue]2trk[/color] straight[color=#FFFF00]\".[/color]\nsend your symmetry related complaints to: myass@fuckrightoff.co.uk"
+        },
+        "7": {
+            "filename": "bp_index_7.bin",
+            "label": "2K penalty [color=red]switch[/color]",
+            "description": "[color=#FFFF00]Can be overlaid on a \"[/color][color=purple]4trk [/color]straight[color=#FFFF00]\".[/color]\n[color=#FFFF00]Can be overlaid on itself if rotated by 180°.\nLets trains switch lanes if they can overcome a 2000 pathfinder penalty.[/color]"
+        },
+        "8": {
+            "filename": "bp_index_8.bin",
+            "label": "[color=red]switch[/color] remover [item=deconstruction-planner]",
+            "description": "description is missing"
+        },
+        "9": {
+            "filename": "bp_index_9.bin",
+            "label": "[[color=red]switching[/color] junctions]",
+            "description": "description is missing"
+        },
+        "10": {
+            "filename": "bp_index_10.bin",
+            "label": "[entry/exit]",
+            "description": "description is missing"
+        },
+        "11": {
+            "filename": "bp_index_11.bin",
+            "label": "goodies",
+            "description": "description is missing"
+        },
+        "12": {
+            "filename": "bp_index_12.bin",
+            "label": "robogrid (cheap)",
+            "description": "this one uses big-poles instead of substations.\nharder to fully deconstruct, but more affordable.\n[color=#ff2020]reminder[/color]: \n[color=#aa9900]map-wide loginet perpetrators will be persecuted.[/color]"
+        },
+        "13": {
+            "filename": "bp_index_13.bin",
+            "label": "robogrid",
+            "description": "[color=#ff2020]reminder[/color]: \n[color=#aa9900]if you see somebody deploying map-wide loginets, \nyou are authorized to shoot them on sight.[/color]"
+        },
+        "14": {
+            "filename": "bp_index_14.bin",
+            "label": "robogrid remover [item=deconstruction-planner]",
+            "description": "description is missing"
+        },
+        "15": {
+            "filename": "bp_index_15.bin",
+            "label": "[color=purple]4trk[/color] curve [color=red]FAST[/color] (read description before use)",
+            "description": "[color=red]- DO NOT OVERLAY EXISTING JUNCTIONS!\n- DO NOT BRANCH OFF FROM THIS SECTION![/color]\n[color=#FFFF00]- place this between close-by junctions to help trains maintain their momentum.[/color]"
+        },
+        "16": {
+            "filename": "bp_index_16.bin",
+            "label": "[color=purple]4trk [/color]straight [color=red]FAST[/color] (read description before use)",
+            "description": "[color=red]- DO NOT OVERLAY EXISTING JUNCTIONS!\n- DO NOT BRANCH OFF FROM THIS SECTION![/color]\n[color=#FFFF00]- place this between close-by junctions to help trains maintain their momentum.[/color]"
+        }
+    }
+}
