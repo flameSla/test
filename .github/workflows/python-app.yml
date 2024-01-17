@@ -25,4 +25,6 @@ jobs:
       with:
         python-version: "3.10"
     - name: build application
-      run: python bps/bps_compiler_of_book.py -b="bps/bp_compiler_out.out" -m="bps/makefile_bps.json" 
+      run:
+        cd bps
+        python bps_compiler_of_book.py -b="bp_compiler_out.out" -m="makefile_bps.json" 
