@@ -29,3 +29,17 @@ jobs:
           cd bps
           python bps_compiler_of_book.py -b="bp_compiler_out.out" -m="makefile_bps.json" 
           echo "txt">1.txt
+    - name: Create file
+      run: |
+        printf "Hello\nWorld\n" > hw.txt
+    - name: Create file
+      run: |
+        echo First        > other.txt
+        echo Second Line >> other.txt
+        echo Third       >> other.txt
+    - name: Show file content
+      run: |
+        pwd
+        ls -la
+        cat hw.txt
+        cat other.txt
