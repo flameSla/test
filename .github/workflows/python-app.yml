@@ -28,7 +28,6 @@ jobs:
       run: |
           cd bps
           python bps_compiler_of_book.py -b="bp_compiler_out.out" -m="makefile_bps.json" 
-          echo "txt">1.txt
     - name: Create file
       run: |
         printf "Hello\nWorld\n" > hw.txt
@@ -44,13 +43,7 @@ jobs:
         cat hw.txt
         cat other.txt
     - name: Commit changes
-      run: |
-        git config --global user.email "no-reply@github.com"
-        git config --global user.name "GitHub Actions"
-        git add .
-        git commit -m "build bps"
-        echo https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: 'building a bps'
+          
