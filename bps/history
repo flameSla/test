@@ -1,0 +1,29 @@
+{
+    "minor": 0,
+    "files": {
+        "bp_index_15.bin": "8df80133d7f95b9606998f78512b07fc",
+        "bp_index_3.bin": "dcaf7c924e8f81be26fdd387d5cb5011",
+        "bp_from_json.py": "bdb856bf854774af026d9fadda7bb727",
+        "bp_index_6.bin": "b1364b5ae7e6398a3b4e7bff03438c45",
+        "bp_index_13.bin": "8fea9b5da02f418fa64a1a7c23f4faa3",
+        "bp_index_4.bin": "3ad14c4b424f4af8830459e66243906a",
+        "bp_index_14.bin": "3a2fbbba3b968ae5d78dd278b9cd3a68",
+        "bp_index_10.bin": "6cee4e82675a6aa97cb4025c7a325f2d",
+        "makefile_bps.json": "a180b52da4c694f05cb088f547723d7a",
+        "bp.txt": "182be0c5cdcd5072bb1864cdee4d3d6e",
+        "bp_index_0.bin": "e2927f82c152a8c3b80a80ddf60f2ae7",
+        "bp_index_2.bin": "542ba2220a364acbd33e100a307526bd",
+        "bp_index_1.bin": "82b5ceafa82146e9e3004692ca4cbd9e",
+        "bp_index_5.bin": "21b361708931953a423c2fa020cfab2c",
+        "bp_compiler_of_book.cmd": "949dc07d666f51561a22ecce4484db38",
+        "bps_compiler_of_book.py": "d4d694d97961d1a2391618bd3b6880d7",
+        "bp_index_11.bin": "e87f1e0906881e3fd340f11c64b6bc76",
+        "bp_index_7.bin": "f2cdf27b95ef1dbca379f36bd3857877",
+        "bp_index_12.bin": "fc0dcf9a571e02b0722dec5de73b08da",
+        "bp_index_16.bin": "cdab7eb4335afca85d996dc01da7c98f",
+        "bp_decompiler_of_book.cmd": "64a43b5eaa497bb86f5bff3c43be206f",
+        "bp_index_9.bin": "efac6f11cbf72c24ede8956e4753a772",
+        "bp_index_8.bin": "56e4b74c3a9682b067de5b50030a6bf0"
+    },
+    "old_file_name": "bp_compiler_out_v0.3.0.out"
+}
