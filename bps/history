@@ -1,5 +1,5 @@
 {
-    "minor": 0,
+    "minor": 1,
     "files": {
         "bp_index_15.bin": "8df80133d7f95b9606998f78512b07fc",
         "bp_index_3.bin": "dcaf7c924e8f81be26fdd387d5cb5011",
@@ -16,7 +16,7 @@
         "bp_index_1.bin": "82b5ceafa82146e9e3004692ca4cbd9e",
         "bp_index_5.bin": "21b361708931953a423c2fa020cfab2c",
         "bp_compiler_of_book.cmd": "949dc07d666f51561a22ecce4484db38",
-        "bps_compiler_of_book.py": "d4d694d97961d1a2391618bd3b6880d7",
+        "bps_compiler_of_book.py": "45d049ae97fbec89f17e0bf150541db3",
         "bp_index_11.bin": "e87f1e0906881e3fd340f11c64b6bc76",
         "bp_index_7.bin": "f2cdf27b95ef1dbca379f36bd3857877",
         "bp_index_12.bin": "fc0dcf9a571e02b0722dec5de73b08da",
@@ -25,5 +25,5 @@
         "bp_index_9.bin": "efac6f11cbf72c24ede8956e4753a772",
         "bp_index_8.bin": "56e4b74c3a9682b067de5b50030a6bf0"
     },
-    "old_file_name": "bp_compiler_out_v0.3.0.out"
+    "old_file_name": "bp_compiler_out_v0.3.1.out"
 }
