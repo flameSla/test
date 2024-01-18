@@ -105,13 +105,24 @@ if __name__ == "__main__":
     if files1 == history["files"]:
         print("The files have not changed, the project is not being built.")
     else:
+        makefile_json = json.load(Path(makefile_bps).open(encoding="utf8"))
+
         history["minor"] += 1
         history["files"] = files1
+
+        # delete an old file
+        ver = "{}.{}".format(makefile_json["version"], history["minor"])
+        old_file_name = history.get("old_file_name", output_file)
+        Path(old_file_name).unlink(missing_ok=True)
+
+        # new file name
+        output_file = Path(output_file)
+        output_file = output_file.with_name("{}_v{}".format(output_file.name, ver))
+        history["old_file_name"] = output_file
+
         with open("history", "w", encoding="utf8") as f:
             json_str = json.dumps(history, indent=4, ensure_ascii=False)
             print(json_str, file=f)
-
-        makefile_json = json.load(Path(makefile_bps).open(encoding="utf8"))
 
         # print(makefile_json["summary_of_book"])
         # print(makefile_json["indexes"])
@@ -120,7 +131,6 @@ if __name__ == "__main__":
         for key, value in makefile_json["summary_of_book"].items():
             book.obj[key] = value
 
-        ver = "{}.{}".format(makefile_json["version"], history["minor"])
         label = makefile_json["label"].format(ver)
         book.set_label(label)
 
