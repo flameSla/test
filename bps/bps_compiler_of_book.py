@@ -142,3 +142,4 @@ if __name__ == "__main__":
             book.append_bp(bp, index)
 
         book.to_file(output_file)
+        print("the book is saved: {}".format(output_file))
