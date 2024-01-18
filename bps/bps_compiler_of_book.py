@@ -110,15 +110,16 @@ if __name__ == "__main__":
         history["minor"] += 1
         history["files"] = files1
 
-        # delete an old file
         ver = "{}.{}".format(makefile_json["version"], history["minor"])
+
+        # delete an old file
         old_file_name = history.get("old_file_name", output_file)
         Path(old_file_name).unlink(missing_ok=True)
 
         # new file name
         output_file = Path(output_file)
-        output_file = output_file.with_name("{}_v{}".format(output_file.name, ver))
-        history["old_file_name"] = output_file
+        output_file = output_file.with_stem("{}_v{}".format(output_file.stem, ver))
+        history["old_file_name"] = str(output_file)
 
         with open("history", "w", encoding="utf8") as f:
             json_str = json.dumps(history, indent=4, ensure_ascii=False)
